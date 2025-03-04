@@ -38,8 +38,12 @@ function hideCookieBanner() {
  */
 function eventCookieBannerDetailsClicked(e) {
   var cookieBannerWrapper = document.getElementById('CookieBanner');
+  var cookieShowDetailsButton = document.querySelector('#CustomCookiebotOpenDetails');
+  var cookieHideDetailsButton = document.querySelector('#CustomCookiebotCloseDetails');
   if (cookieBannerWrapper) {
      cookieBannerWrapper.classList.toggle('is-details-open');
+     cookieShowDetailsButton.classList.toggle('hideDetailsBtn');
+      cookieHideDetailsButton.classList.toggle('hideDetailsBtn');
   }
   if (e.currentTarget) {
      if (e.currentTarget.getAttribute('aria-expanded') == 'false') {
@@ -75,4 +79,3 @@ function eventCookieBannerToggleTable(e) {
   }
 
 }
-
