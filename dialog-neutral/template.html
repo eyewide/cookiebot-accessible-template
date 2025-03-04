@@ -1,5 +1,4 @@
 <div id="CookieBanner" data-version="1.1.0" data-template="generaxion/cookiebot-accessible-template" data-tone="neutral">
-  <div id="CookieBannerOverlay"></div>
   <div id="CookieBannerNotice" lang="[#LANGUAGE#]" dir="[#TEXTDIRECTION#]" role="dialog" aria-labelledby="CookieBannerTitle" aria-describedby="CookieBannerDescription" ng-non-bindable>
     <div class="cookiebanner__main">
       <div class="cookiebanner__main__inner">
@@ -12,6 +11,7 @@
             <li><button class="cookiebanner__buttons__accept" id="CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll">[#ACCEPT#]</button></li>
             <li><button class="cookiebanner__buttons__deny" id="CybotCookiebotDialogBodyButtonDecline">[#DECLINE#]</button></li>
             <li><button class="cookiebanner__buttons__details" id="CustomCookiebotOpenDetails" onclick="eventCookieBannerDetailsClicked(event)" aria-expanded="false" aria-controls="CookieBannerDetails">[#DETAILS#]</button></li>
+            <li><button class="cookiebanner__buttons__details hideDetailsBtn" id="CustomCookiebotCloseDetails" onclick="eventCookieBannerDetailsClicked(event)" aria-expanded="false" aria-controls="CookieBannerDetails">[#DETAILSHIDE#]</button></li>
           </ul>
         </div>
       </div>
