@@ -308,9 +308,9 @@ li {
 }
 
 #CookieBanner .cookiebanner__buttons__accept {
-  color: var(--cb-accept-button-color, var(--cb-button-color));
-  background: var(--cb-accept-button-background, var(--cb-button-background));
-  border: var(--cb-accept-button-border, var(--cb-button-border, 2px solid #0f0f0f));
+  color: #FFFFFF;
+  background: #1032CF;
+  border: 2px solid #1032CF;
 }
 
 #CookieBanner .cookiebanner__buttons__accept:hover,
@@ -318,11 +318,8 @@ li {
 #CookieBanner .cookiebanner__buttons__accept:active {
   /* legacy browser compatibility */
   color: #fff;
-  background: #0f0f0f;
-  /* legacy browser compatibility end */
-  color: var(--cb-accept-button-active-color, var(--cb-button-active-color, #fff));
-  background: var(--cb-accept-button-active-background, var(--cb-button-active-background, #0f0f0f));
-  border: var(--cb-accept-button-active-border, var(--cb-accept-button-border, var(--cb-button-active-border, var(--cb-button-border, 2px solid #0f0f0f))));
+  background: #2242d5;
+  border: 2px solid #2242d5;
 }
 
 #CookieBanner .cookiebanner__buttons__deny:hover,
